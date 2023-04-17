@@ -41,6 +41,14 @@ public class Main {
                 System.out.println("разница веса в " + weightDifference + " кг");
                 var overWeight = weightOfBoxerNumber2 % weightOfBoxerNumber1;
                 System.out.println("перевес на " + overWeight + " кг");
+                var workingHours = 640;
+                var forOneWorker = 8;
+                var totalWorkers = workingHours / forOneWorker;
+                System.out.println("всего работников в компании " + totalWorkers + " человек");
+                totalWorkers = totalWorkers + 94;
+                workingHours = totalWorkers * 8;
+                System.out.println("Если в компании работает " + totalWorkers + " человек, то всего " + workingHours + " часов работы может быть поделено между сотрудниками");
+
             }
 
     }
